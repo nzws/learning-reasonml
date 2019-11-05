@@ -1,0 +1,14 @@
+{
+  "name": "lerning-reasonml",
+  "private": true,
+  "repository": "https://github.com/nzws/lerning-reasonml.git",
+  "author": "nzws <github@nzws.me>",
+  "devDependencies": {
+    "bs-platform": "^5.2.1"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  }
+}
